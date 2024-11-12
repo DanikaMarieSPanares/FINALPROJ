@@ -3,18 +3,18 @@ body {
     padding: 25px;
 }
 
-.header {
+header {
     padding: 20px;
     text-align: center;
     background-color: LemonChiffon;
     color: DarkOliveGreen;
 }
 
-.header h1{
+header h1{
    font-size: 64px;
 }
 
-.header p{
+header p{
    font-size: 24px;
 }
 
@@ -113,7 +113,7 @@ tbody tr:hover {
     font-size: 30px;
 }
 
-.footer {
+footer {
     padding: 20px;
     text-align: center;
     background: #ddd;
