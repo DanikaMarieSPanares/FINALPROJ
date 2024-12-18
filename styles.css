@@ -6,110 +6,119 @@ body {
 header {
     padding: 20px;
     text-align: center;
-    background-color: LemonChiffon;
+    background: LemonChiffon;
     color: DarkOliveGreen;
+    border-radius: 12px 12px 0 0;
 }
 
-header h1{
-   font-size: 64px;
+header h1 {
+    font-size: 64px;
 }
 
-header p{
-   font-size: 24px;
+header p {
+    font-size: 24px;
 }
 
-.navbar {
+nav {
     overflow: hidden;
-    background-color: #333;
+    background: #333;
     position: sticky;
     top: 0;
+    border-radius: 0 0 12px 12px;
 }
 
-.navbar a {
+nav a {
     float: left;
     display: block;
     color: LemonChiffon;
     text-align: center;
     padding: 14px 20px;
     text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 8px;
 }
 
-.navbar a.right {
+nav a.right {
     float: right;
 }
 
-.navbar a:hover {
-    background-color: #ddd;
+nav a:hover {
+    background: #ddd;
     color: DarkOliveGreen;
 }
 
-.navbar a.active {
-    background-color: #666;
+nav a.active {
+    background: #666;
     color: LemonChiffon;
 }
 
 .box {
-    background-color: #ffffff;
+    background: #ffffff;
     border: 1px solid #dddddd;
-    border-radius: 8px;
+    border-radius: 12px;
     padding: 20px;
-    margin: 20px 0; 
+    margin: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden; 
+    overflow: hidden;
 }
 
-.main p{
-font-size: 22px;
+.section p {
+    font-size: 22px;
 }
 
-.main h2{
-   font-size: 30px;
+.section h2 {
+    font-size: 30px;
 }
 
-.sdg11, .learnmore img {
-    max-width: 100%; 
-    height: auto; 
+.sdg11,
+.learnmore img {
+    max-width: 100%;
+    height: auto;
     margin-right: 25px;
-    display: block; 
-    float: left
+    display: block;
+    float: left;
+    border-radius: 12px;
 }
 
 .haha {
-    clear: both; 
+    clear: both;
     margin-top: 50px;
     margin-right: 25px;
 }
 
 table {
-    width: 100%; 
+    width: 100%;
     border-collapse: collapse;
-    margin: 20px 0; 
+    margin: 20px 0;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
-th, td {
+th,
+td {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
 }
 
 th {
-    background-color: #f2f2f2;
+    background: #f2f2f2;
 }
 
 tbody tr:hover {
-    background-color: #f1f1f1;
+    background: #f1f1f1;
 }
 
 .learnmore img {
-    float: left; 
-    margin-right: 20px; 
+    float: left;
+    margin-right: 20px;
 }
 
 .learnmore p {
-    font-size: 22px; 
+    font-size: 22px;
 }
 
-.learnmore h2{
+.learnmore h2 {
     font-size: 30px;
 }
 
@@ -118,4 +127,5 @@ footer {
     text-align: center;
     background: #ddd;
     margin-top: 30px;
+    border-radius: 12px;
 }
