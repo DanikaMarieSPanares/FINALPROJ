@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    
+    <link rel="stylesheet" href="stylesignup.css" />
+    
+    
+</head>
+<body>
+
+
+<header>
+        <h1>EcoCities</h1>
+        <p>A website centered on SDG 11, <b>Sustainable Cities and Communities</b>, created by Danika Panares.</p>
+    </header>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="issues.html">Issues</a>
+        <a href="#" class="active">Sign Up</a>
+        <a href="#" class="right">FAQ</a>
+    </nav>
+
+<div class="container">
+
+<h3>Campaign for Cities that Promote Gender Equality  </h3>
+    <form id="signupForm" novalidate>
+        <label for="firstName" class="required">First Name</label>
+        <input type="text" id="firstName" name="firstName" />
+        <span class="error" id="firstNameError"></span>
+
+        <label for="lastName" class="required">Last Name</label>
+        <input type="text" id="lastName" name="lastName" />
+        <span class="error" id="lastNameError"></span>
+
+        <label class="required">Sex</label>
+        <div class="radio-group">
+        <label for="male" style="font-weight:normal;">Male</label>
+        <input type="radio" id="male" name="sex" value="male" />
+        <label for="female" style="font-weight:normal;">Female</label>
+        <input type="radio" id="female" name="sex" value="female" />
+        <label for="preferNotToSay" style="font-weight:normal;">Prefer not to say</label>
+        <input type="radio" id="preferNotToSay" name="sex" value="preferNotToSay" />
+        </div>
+        <span class="error" id="sexError"></span>
+
+        <label for="email" class="required">Email Address</label>
+        <input type="email" id="email" name="email" />
+        <span class="error" id="emailError"></span>
+
+        <label for="password" class="required">Password</label>
+        <input type="password" id="password" name="password" />
+        <span class="error" id="passwordError"></span>
+
+        <label for="contactNumber">Contact Number</label>
+        <input type="text" id="contactNumber" name="contactNumber" />
+        <label for="supportReason" class="required">Why you’re supporting our campaign</label>
+        <textarea id="supportReason" name="supportReason"></textarea>
+        <span class="error" id="supportReasonError"></span>
+
+        <button type="submit">Join the Movement</button>
+    </form>
+</div>
+
+<script src="scriptsignup.js"></script>
+
+</body>
